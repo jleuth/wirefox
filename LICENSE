@@ -1,45 +1,21 @@
-Open Source Creator's Share License (OSCSL-1.0)
+MIT License
 
-Version 1.0
-Effective Date: 11/27/2024
+Copyright (c) 2019 Mirrus
 
-Definitions
-"Work": Refers to the software, content, or other creative material covered under this license.
-"You": Any individual or entity accessing or using the Work under this license.
-"Creator": The original author(s) of the Work, as identified in the Work's metadata or documentation.
-"Commercial Use": Use of the Work or its derivatives for monetary gain or commercial advantage.
-Permissions and Restrictions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Attribution (BY):
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You must provide proper attribution to the Creator in any distribution, display, or modification of the Work. Attribution must include:
-The Creator's name.
-A link to the original source or repository, if applicable.
-A statement of any changes made if you have modified the Work.
-Share-Alike (SA):
-
-If you create derivative works based on the Work, you must distribute them under the same terms as this license.
-Non-Commercial Use Only (NC):
-
-You may not use the Work or its derivatives for Commercial Use without explicit written authorization from the Creator.
-Exception: The Creator retains the exclusive right to use the Work for Commercial Use.
-Personal and Educational Use:
-
-Non-commercial personal or educational use of the Work is permitted without restriction.
-Authorized Commercial Use:
-
-Commercial Use is permitted if explicitly authorized in writing by the Creator. For inquiries, contact: me@jleuthardt.com.
-No Warranty
-The Work is provided "as-is," without warranty of any kind, express or implied. The Creator is not liable for any damages or losses arising from the use or inability to use the Work.
-
-Termination
-This license is effective until terminated. If you violate its terms, your rights under this license automatically terminate. The Creator reserves the right to pursue legal action for violations.
-
-Governing Law
-This license shall be governed by the laws of the state of Minnesota, The United States of America, without regard to its conflict of law provisions.
-
-How to Apply This License
-To apply the Open Source Creator's Share License (OSCSL-1.0) to your work, include the following notice in your project:
-
-This work is licensed under the Open Source Creator's Share License (OSCSL-1.0).
-For details, see https://jleuthardt.com/oscsl or contact me@jleuthardt.com.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
