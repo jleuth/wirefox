@@ -15,8 +15,8 @@ DEFAULT_CONF = {
 }
 
 # Paths
-conf_file = os.path.expanduser("/etc/.wirefox.conf")
-log_file = os.path.expanduser("/var/.wirefox.log")
+conf_file = os.path.expanduser("/etc/wirefox.conf")
+log_file = os.path.expanduser("/var/wirefox.log")
 service_file = "/etc/systemd/system/wirefox.service"
 
 # Ensure configuration file exists and is valid
