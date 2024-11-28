@@ -39,7 +39,7 @@ BEFORE DOING THIS, IT'S **HIGHLY RECOMMENDED** TO MAKE A NEW USER AND PASSWORD, 
 
 This is quick and easy, just run:
 ```bash
-sudo useradd -m NEWUSER sudo
+sudo useradd -m NEWUSER
 sudo passwd NEWUSER
 usermod -aG sudo NEWUSER
 ```
