@@ -9,14 +9,10 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # Check if pip/python is installed
-if ! [ -x "$(command -v python)" ]; then
-  echo 'Error: python is not installed.' >&2
-  exit 1
-fi
-
-if ! [ -x "$(command -v pip)" ]; then
-  echo 'Error: pip is not installed.' >&2
-  exit 1
+which python3
+if [ $? -ne 0 ]; then
+    echo "Error: Python3 is not installed"
+    exit 1
 fi
 
 pip install requests
