@@ -2,12 +2,6 @@
 
 # Installer for Wirefox Services
 
-# Check if the script is being run as root
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  exit
-fi
-
 # Check if pip/python is installed
 which python3
 if [ $? -ne 0 ]; then
@@ -15,12 +9,20 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-pip install requests
+which pip3
+if [ $? -ne 0 ]; then
+    echo "Error: Pip3 is not installed"
+    exit 1
+fi
+
+pip3 install requests -q
 
 # Download the script
 curl https://raw.githubusercontent.com/jleuth/wirefox/refs/heads/main/wirefox.py > wirefox.py
 chmod +x wirefox.py
 mv wirefox.py /usr/bin/wirefox
+
+echo "We need to root to install the service, please enter your password"
 
 sudo wirefox --install-service
 sudo systemctl start wirefox
