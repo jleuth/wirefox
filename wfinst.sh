@@ -20,9 +20,8 @@ pip3 install requests -q
 # Download the script
 curl https://raw.githubusercontent.com/jleuth/wirefox/refs/heads/main/wirefox.py > wirefox.py
 chmod +x wirefox.py
-mv wirefox.py /usr/bin/wirefox
-
-echo "We need to root to install the service, please enter your password"
+echo "We need to root for the rest of the install, please enter your password"
+sudo mv wirefox.py /usr/bin/wirefox
 
 sudo wirefox --install-service
 sudo systemctl start wirefox
