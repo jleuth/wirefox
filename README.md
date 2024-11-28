@@ -4,6 +4,8 @@
 
 **Wirefox Services** is the backbone of this system, enabling users to retrieve the device's local and public IPs effortlessly without network scanning. This makes managing headless devices seamless and efficient.
 
+[View setup instructions](/setup) [View usage instructions](/usage)
+
 ---
 
 ## Features
